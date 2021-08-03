@@ -9,7 +9,7 @@ const operate = (numberOne, numberTwo, operation) => {
       case '*': return num1.times(num2).toFixed();
       case '/':
         if (parseInt(num2, 10) === 0) {
-          return '0';
+          return 'Division by zero error';
         }
         return num2 !== '0' ? num1.div(num2).toFixed() : 'inf';
       case '-': return num1.minus(num2).toFixed();
