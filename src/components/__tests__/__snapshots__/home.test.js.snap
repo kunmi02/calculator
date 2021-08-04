@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <div
+    className="top"
+  >
+    <h1>
+      Math Whizz!!
+    </h1>
+    <div
+      className="links"
+    >
+      <a
+        className="link"
+        href="/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+      <a
+        className="link"
+        href="/calculator"
+        onClick={[Function]}
+      >
+        Calculator
+      </a>
+      <a
+        className="link"
+        href="/quote"
+        onClick={[Function]}
+      >
+        Quote
+      </a>
+    </div>
+  </div>,
+  <h2>
+    Welcome to our Math Magician page!
+  </h2>,
+  <p>
+    Create some magic using our Mathematics calculatore
+  </p>,
+  <p>
+    Enjoy and catch fun
+  </p>,
+]
+`;

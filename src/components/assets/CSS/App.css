@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #dfe2e2;
+  background-image: linear-gradient(315deg, #1feb18 0%, #be953a 74%);
+  height: 100vw;
+}
+
+#root {
+  width: 700px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.calculator {
+  width: 600px;
+  padding: 0.5rem;
+}

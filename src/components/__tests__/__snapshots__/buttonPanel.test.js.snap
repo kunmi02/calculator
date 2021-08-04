@@ -1,140 +1,313 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-Array [
+<div
+  className="panel"
+>
   <div
-    className="group-1"
+    className="group"
   >
     <button
       onClick={[Function]}
+      style={
+        Object {
+          "background": "orange",
+          "font": "3rem 'Syne Mono'",
+          "height": "100%",
+          "textAlign": "center",
+          "width": "25%",
+        }
+      }
       type="button"
     >
       AC
     </button>
     <button
       onClick={[Function]}
+      style={
+        Object {
+          "background": "orange",
+          "font": "3rem 'Syne Mono'",
+          "height": "100%",
+          "textAlign": "center",
+          "width": "25%",
+        }
+      }
       type="button"
     >
       +/-
     </button>
     <button
       onClick={[Function]}
+      style={
+        Object {
+          "background": "orange",
+          "font": "3rem 'Syne Mono'",
+          "height": "100%",
+          "textAlign": "center",
+          "width": "25%",
+        }
+      }
       type="button"
     >
       %
     </button>
     <button
       onClick={[Function]}
+      style={
+        Object {
+          "background": "orange",
+          "font": "3rem 'Syne Mono'",
+          "height": "100%",
+          "textAlign": "center",
+          "width": "25%",
+        }
+      }
       type="button"
     >
       /
     </button>
-  </div>,
+  </div>
   <div
-    className="group-2"
+    className="group"
   >
     <button
       onClick={[Function]}
+      style={
+        Object {
+          "background": "orange",
+          "font": "3rem 'Syne Mono'",
+          "height": "100%",
+          "textAlign": "center",
+          "width": "25%",
+        }
+      }
       type="button"
     >
       7
     </button>
     <button
       onClick={[Function]}
+      style={
+        Object {
+          "background": "orange",
+          "font": "3rem 'Syne Mono'",
+          "height": "100%",
+          "textAlign": "center",
+          "width": "25%",
+        }
+      }
       type="button"
     >
       8
     </button>
     <button
       onClick={[Function]}
+      style={
+        Object {
+          "background": "orange",
+          "font": "3rem 'Syne Mono'",
+          "height": "100%",
+          "textAlign": "center",
+          "width": "25%",
+        }
+      }
       type="button"
     >
       9
     </button>
     <button
       onClick={[Function]}
+      style={
+        Object {
+          "background": "orange",
+          "font": "3rem 'Syne Mono'",
+          "height": "100%",
+          "textAlign": "center",
+          "width": "25%",
+        }
+      }
       type="button"
     >
       *
     </button>
-  </div>,
+  </div>
   <div
-    className="group-3"
+    className="group"
   >
     <button
       onClick={[Function]}
+      style={
+        Object {
+          "background": "orange",
+          "font": "3rem 'Syne Mono'",
+          "height": "100%",
+          "textAlign": "center",
+          "width": "25%",
+        }
+      }
       type="button"
     >
       4
     </button>
     <button
       onClick={[Function]}
+      style={
+        Object {
+          "background": "orange",
+          "font": "3rem 'Syne Mono'",
+          "height": "100%",
+          "textAlign": "center",
+          "width": "25%",
+        }
+      }
       type="button"
     >
       5
     </button>
     <button
       onClick={[Function]}
+      style={
+        Object {
+          "background": "orange",
+          "font": "3rem 'Syne Mono'",
+          "height": "100%",
+          "textAlign": "center",
+          "width": "25%",
+        }
+      }
       type="button"
     >
       6
     </button>
     <button
       onClick={[Function]}
+      style={
+        Object {
+          "background": "orange",
+          "font": "3rem 'Syne Mono'",
+          "height": "100%",
+          "textAlign": "center",
+          "width": "25%",
+        }
+      }
       type="button"
     >
       -
     </button>
-  </div>,
+  </div>
   <div
-    className="group-4"
+    className="group"
   >
     <button
       onClick={[Function]}
+      style={
+        Object {
+          "background": "orange",
+          "font": "3rem 'Syne Mono'",
+          "height": "100%",
+          "textAlign": "center",
+          "width": "25%",
+        }
+      }
       type="button"
     >
       1
     </button>
     <button
       onClick={[Function]}
+      style={
+        Object {
+          "background": "orange",
+          "font": "3rem 'Syne Mono'",
+          "height": "100%",
+          "textAlign": "center",
+          "width": "25%",
+        }
+      }
       type="button"
     >
       2
     </button>
     <button
       onClick={[Function]}
+      style={
+        Object {
+          "background": "orange",
+          "font": "3rem 'Syne Mono'",
+          "height": "100%",
+          "textAlign": "center",
+          "width": "25%",
+        }
+      }
       type="button"
     >
       3
     </button>
     <button
       onClick={[Function]}
+      style={
+        Object {
+          "background": "orange",
+          "font": "3rem 'Syne Mono'",
+          "height": "100%",
+          "textAlign": "center",
+          "width": "25%",
+        }
+      }
       type="button"
     >
       +
     </button>
-  </div>,
+  </div>
   <div
-    className="group-5"
+    className="group"
   >
     <button
       onClick={[Function]}
+      style={
+        Object {
+          "background": "orange",
+          "font": "3rem 'Syne Mono'",
+          "height": "100%",
+          "textAlign": "center",
+          "width": "25%",
+        }
+      }
       type="button"
     >
       0
     </button>
     <button
       onClick={[Function]}
+      style={
+        Object {
+          "background": "orange",
+          "font": "3rem 'Syne Mono'",
+          "height": "100%",
+          "textAlign": "center",
+          "width": "25%",
+        }
+      }
       type="button"
     >
       .
     </button>
     <button
       onClick={[Function]}
+      style={
+        Object {
+          "background": "orange",
+          "font": "3rem 'Syne Mono'",
+          "height": "100%",
+          "textAlign": "center",
+          "width": "25%",
+        }
+      }
       type="button"
     >
       =
     </button>
-  </div>,
-]
+  </div>
+</div>
 `;
