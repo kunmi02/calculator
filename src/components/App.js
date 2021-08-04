@@ -1,36 +1,37 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Display from './display';
 import ButtonPanel from './buttonPanel';
 import calculate from '../logic/calculate';
+import Navbar from './Navbar';
 
-class App extends React.Component {
-  constructor() {
-    super();
+import './assets/CSS/App.css';
 
-    this.state = {
-      total: null,
-      next: null,
-      operation: null,
-    };
+const Calculator = () => {
+  const [total, setTotal] = useState(null);
+  const [next, setNext] = useState(null);
+  const [operation, setOperation] = useState(null);
 
-    this.handleClick = this.handleClick.bind(this);
-  }
+  const handleClick = (buttonName) => {
+    const state = { total, next, operation };
 
-  handleClick(buttonName) {
-    const newData = calculate(this.state, buttonName);
-    this.setState(newData);
-  }
+    const newData = calculate(state, buttonName);
+    setTotal(newData.total);
+    setNext(newData.next);
+    setOperation(newData.operation);
+  };
 
-  render() {
-    const { next } = this.state;
-    return (
+  return (
+    <>
+      <Navbar />
+      <div className="container">
+        <h2>Math is Magic</h2>
+        <div className="calculator">
+          <Display result={next} />
+          <ButtonPanel clickHandler={handleClick} />
+        </div>
+      </div>
+    </>
+  );
+};
 
-      <>
-        <Display result={next} />
-        <ButtonPanel clickHandler={this.handleClick} />
-      </>
-    );
-  }
-}
-
-export default App;
+export default Calculator;

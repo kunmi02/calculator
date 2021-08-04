@@ -1,0 +1,13 @@
+.display {
+  background: gray;
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+  font: bold 4rem 'Times New Roman', Times, serif;
+  padding: 1rem;
+  letter-spacing: 5px;
+  border: 2px solid black;
+  margin-bottom: 0.5rem;
+}
