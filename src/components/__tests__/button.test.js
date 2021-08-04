@@ -12,7 +12,7 @@ it('renders correctly', () => {
     textAlign: 'center',
   };
   const tree = renderer
-    .create(<Button name="0" key="0" style={styles}  clickHandler={() => {}}  wide={isWide} />)
+    .create(<Button name="0" key="0" style={styles} clickHandler={() => {}} wide={isWide} />)
     .toJSON();
   expect(tree).toMatchSnapshot();
 });

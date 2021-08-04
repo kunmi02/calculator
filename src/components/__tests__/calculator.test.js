@@ -18,12 +18,12 @@ it('renders correctly', () => {
 });
 
 it('contains Title', () => {
-  const { container, getByText } = render(
+  const { getByText } = render(
     <Router history={history}>
       <Calculator />
     </Router>,
   );
-  expect(getByText("Math is Magic")).toBeInTheDocument();
+  expect(getByText('Math is Magic')).toBeInTheDocument();
 });
 
 it('contains NavBar', () => {

@@ -21,7 +21,7 @@ it('renders correctly', () => {
 });
 
 it('contains Title', () => {
-  const { container, getByText } = render(
+  const { getByText } = render(
     <Router history={history}>
       <Home />
     </Router>,
